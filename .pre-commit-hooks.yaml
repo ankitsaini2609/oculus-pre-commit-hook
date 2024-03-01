@@ -1,0 +1,6 @@
+- id: gitleaks
+  name: Scanning for hardcoded credentials
+  description: Detecting hardcoded credentials using gitleaks
+  entry: ./gitleaks.sh
+  language: script
+  pass_filenames: false
